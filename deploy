@@ -4,6 +4,7 @@ sudo apt-get install software-properties-common
 sudo add-apt-repository --remove ppa:nemh/systemback
 sudo add-apt-repository "deb http://ppa.launchpad.net/nemh/systemback/ubuntu xenial main"
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 382003C2C8B7B4AB813E915B14E4942973C62A1B
-sudo apt-get update && apt-get install systemback
+sudo apt-get update
+sudo apt-get install systemback
 
-echo systemback script is finished
+echo Systemback script is finished
